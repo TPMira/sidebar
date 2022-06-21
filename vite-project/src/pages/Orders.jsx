@@ -1,8 +1,11 @@
 import React from 'react'
+import { Header } from '../components'
 
 const Orders = () => {
   return (
-    <div>Orders</div>
+    <div>
+      <Header category='Page' title='Orders' />
+    </div>
   )
 }
 
