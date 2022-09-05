@@ -16,8 +16,8 @@ export default function App() {
         {<Roi/>}
       </div>
       <div className="fixed -bottom-8 left-0 right-0 z-0">
-        
       </div>
+      <div className="flex justify-center text-gray-500">Nao eh 100% preciso por causa da porcentagens.</div>
     </div>
   );
 }
