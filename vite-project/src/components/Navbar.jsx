@@ -41,26 +41,7 @@ const Navbar = () => {
     <div className='flex justify-between p-2 md:mx-6 relative'>
       <NavButton title='Menu' customFunc={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} color={currentColor} icon={ <AiOutlineMenu/> } />
       <div className='flex'>
-        <NavButton title='Cart' customFunc={() => handleClick('cart')} color={currentColor} icon={ <FiShoppingCart/> } />
-        <NavButton title='Chat' dotColor='#03C9D7' customFunc={() => handleClick('chat')} color={currentColor} icon={ <BsChatLeft/> } />
-        <NavButton title='Notifications' dotColor='#03C9D7' customFunc={() => handleClick('notification')} color={currentColor} icon={ <RiNotification3Line/> } />
-        <div className='flex items-cente gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg' onClick={() => handleClick('userProfile')}>
-          <img className='rounded-full w-8 h-8' src={avatar}/>
-          <p>
-            <span className='text-gray-400 text-14'>
-              Hi,
-            </span>
-            {' '}
-            <span className='text-gray-400 font-bold ml-1 text-14'>
-              Thiago
-            </span>
-          </p>
-          <MdKeyboardArrowDown className='text-gray-400 text-14'/>      
-        </div>
-        {isClicked.cart && <Cart/> }
-        {isClicked.chat && <Chat/> }
-        {isClicked.notification && <Notification/> }
-        {isClicked.userProfile && <UserProfile/> }
+        
       </div>
     </div>
   )
