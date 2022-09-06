@@ -11,6 +11,10 @@
   );
 }
 
+.bg-gradient-blue {
+  background: linear-gradient(180deg, rgba(8,22,103,1) 0%, rgba(44,58,173,1) 41%, rgba(0,230,255,1) 100%);
+}
+
 .shadow-drop-bottom {
   box-shadow: 9px 9px 5.1px rgba(0, 0, 0, 0.021),
     13.5px 13.5px 10.4px rgba(0, 0, 0, 0.036),
@@ -73,6 +77,15 @@
   text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
     #60a5fa 0px 0px 20px, #60a5fa 0px 0px 30px, #60a5fa 0px 0px 40px,
     #60a5fa 0px 0px 50px, #60a5fa 0px 0px 75px;
+  color: #333;
+}
+
+.text-shadow-green {
+  color: #ffffff;
+  padding: 1rem;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #65fa60 0px 0px 20px, #65fa60 0px 0px 30px, #65fa60 0px 0px 40px,
+    #65fa60 0px 0px 50px, #65fa60 0px 0px 75px;
   color: #333;
 }
 
